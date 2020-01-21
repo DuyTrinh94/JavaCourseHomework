@@ -15,16 +15,21 @@ public class HomeWork4 {
 			b = scan.nextInt();
 		}while(b<=1 || b>36);
 		scan.close();
-		while(n!=0) {
-			if(n%b>9) {
-				numAfterConvert += (char)(n%b + 55);
-			}else {
-				numAfterConvert += n%b;
+		if(n!=0) {
+			while(n!=0) {
+				if(n%b>9) {
+					numAfterConvert += (char)(n%b + 55);
+				}else {
+					numAfterConvert += n%b;
+				}
+				n/=b;
 			}
-			n/=b;
-		}
 
-		System.out.println(HomeWork5.reverse(numAfterConvert));
+			System.out.println("So n sau khi chuyen doi: " + HomeWork5.reverse(numAfterConvert));
+		}else {
+			System.out.println("So n sau khi chuyen doi: 0");
+		}
+		
 	}
 
 }
