@@ -164,19 +164,13 @@ public class HomeWork7 {
 		while(!isWin() && !isFull()) {
 			boolean displayAgain = false;
 			do {
-				if(!displayAgain) {
-					if(isPlayer1) {
-						System.out.print("[Luot cua " + player1Name + "] Chon vi tri: ");
-					}else {
-						System.out.print("[Luot cua " + player2Name + "] Chon vi tri: ");
-					}
-				}else {
+				if(displayAgain) {
 					System.out.println("Vi tri khong dung, hay nhap lai!");
-					if(isPlayer1) {
-						System.out.print("[Luot cua " + player1Name + "] Chon vi tri: ");
-					}else {
-						System.out.print("[Luot cua " + player2Name + "] Chon vi tri: ");
-					}
+				}
+				if(isPlayer1) {
+					System.out.print("[Luot cua " + player1Name + "] Chon vi tri: ");
+				}else {
+					System.out.print("[Luot cua " + player2Name + "] Chon vi tri: ");
 				}
 				coordinate = scan.next();
 				if(coordinate.length() == 2) {
