@@ -95,11 +95,12 @@ public class HomeWork7 {
 			chessWin = chessInBoard[0][2];
 		}
 		
-		if(chessWin=='X' || chessWin=='O') {
-			return true;
-		}else {
-			return false;
-		}
+//		if(chessWin=='X' || chessWin=='O') {
+//			return true;
+//		}else {
+//			return false;
+//		}
+		return chessWin=='X' || chessWin=='O';
 	}
 	
 	//check board full with chess
@@ -165,7 +166,7 @@ public class HomeWork7 {
 			boolean displayAgain = false;
 			do {
 				if(displayAgain) {
-					System.out.println("Vi tri khong dung, hay nhap lai!");
+					System.out.println("Vi tri khong dung, hay nhap lai!\n");
 				}
 				if(isPlayer1) {
 					System.out.print("[Luot cua " + player1Name + "] Chon vi tri: ");
