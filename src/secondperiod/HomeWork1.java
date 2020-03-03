@@ -1,8 +1,10 @@
+package secondperiod;
+
 import java.math.RoundingMode;
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class CoronaHomework1 {
+public class HomeWork1 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

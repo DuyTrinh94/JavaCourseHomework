@@ -1,6 +1,8 @@
+package secondperiod;
+
 import java.util.Scanner;
 
-public class CoronaHomework3 {
+public class HomeWork3 {
 	public static long FiboNum(int n) {
 		long a = 1, b = 1, c = 1;
 		for(int i = 1; i<=n; i++) {
@@ -28,5 +30,4 @@ public class CoronaHomework3 {
 		System.out.println("Sum Covid19 = " + n*FiboNum(h));
 
 	}
-
 }

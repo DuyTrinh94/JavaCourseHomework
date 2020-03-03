@@ -1,3 +1,5 @@
+package firstperiod;
+
 import java.util.Scanner;
 
 public class HomeWork2 {

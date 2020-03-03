@@ -1,10 +1,11 @@
+package secondperiod;
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
 
-public class CoronaHomework4 {
-	
+public class HomeWork4 {
 	static Set<String> permutations;
 
     private static void addChar(char c) {
@@ -55,5 +56,4 @@ public class CoronaHomework4 {
             System.out.println(it.next());
         }
     }
-
 }
